@@ -31,6 +31,14 @@ button{
     text-shadow: 3px 0 #DBEDF3;
    
 }
+/* If the screen size is 425px wide or less, hide the element */
+@media screen and (max-width: 425px) {
+   set{
+      display: flex;
+      flex-direction: column;
+   }
+ }
+ 
 
 .w{
    background-image: url('/img/tom1.png');
