@@ -33,7 +33,7 @@ button{
    
 }
 /* If the screen size is 425px wide or less, hide the element */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
    .set{
       flex-direction: column;
    }
