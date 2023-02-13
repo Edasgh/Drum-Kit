@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "drum-kit-game-app",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
